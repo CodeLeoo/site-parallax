@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Sriracha&display=swap');
+
+/*configuração global*/
+* {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+/*variaveis*/
+:root {
+    --fontpadrao: sans-serif, arial, tahoma;
+    --fonttitulo: 'Roboto', sans-serif;
+}
+/*imagens do começo e do fi do site*/
+section.comecofim {
+    background-image: url("../imagens/background-1.jpg");
+    background-size: 99vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+section.comecofim h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -49%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    height: 5.5vh;
+    padding: 1vh;
+    font-family: var(--fonttitulo);
+    text-transform: uppercase;
+    font-size: 4vw;
+    box-shadow: inset 1px 1px 3px 1px rgb(255, 255, 255);
+}
+section#textfundobranco {
+    background-color: white;
+    max-height: 59vh;
+    margin: auto;
+    max-width: 79vw;
+}
+section#textfundobranco h1 {
+    text-align: center;
+    padding: 19px;
+    font-family: var(--fonttitulo);
+    font-size: bold;
+    font-size: 5vw;
+}
+section#textfundobranco p {
+    color: black;
+    text-align: center;
+    font-family: var(--fontpadrao);
+    margin-top: -89vh;
+
+}
+section#img2 {
+    background-image: url("../imagens/background-2.jpg");
+}
+section#img3 {
+    background-image: url("../imagens/background-3.jpg");
+}
+section.img {
+    max-height: 59vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+section.img h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -49%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 5.5vh;
+    padding: 1.4vh;
+    font-family: var(--fonttitulo);
+    text-transform: uppercase;
+    font-size: 4vw;
+    box-shadow: inset 1px 1px 3px 1px black;
+}
+section.textfundopreto {
+    background-color: black;
+    color: white;
+    height: 59vh;
+    margin: auto;
+}
+section.textfundopreto p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: var(--fontpadrao);
+    margin-top: -89vh;
+    padding: 0px 79px;
+}
+section.textfundopreto h1 {
+    text-align: center;
+    padding: 19px;
+    font-family: var(--fonttitulo);
+    font-size: bold;
+    font-size: 5vw;
+}
